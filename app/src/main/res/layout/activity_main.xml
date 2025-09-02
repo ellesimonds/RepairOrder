@@ -141,12 +141,67 @@
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="581dp" />
 
+    <TextView
+        android:id="@+id/subtotalLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtotal"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="709dp" />
+
+    <TextView
+        android:id="@+id/taxLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tax"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="765dp" />
+
+    <TextView
+        android:id="@+id/totalLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="825dp" />
+
     <Button
         android:id="@+id/submitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"
         android:textColor="#673AB7"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="753dp" />
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="769dp" />
+
+    <EditText
+        android:id="@+id/subtotalCalculation"
+        android:layout_width="79dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="698dp" />
+
+    <EditText
+        android:id="@+id/taxCalculation"
+        android:layout_width="79dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="756dp" />
+
+    <EditText
+        android:id="@+id/totalCalculation"
+        android:layout_width="79dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="817dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
