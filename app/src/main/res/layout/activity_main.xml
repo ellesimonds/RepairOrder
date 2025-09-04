@@ -182,6 +182,7 @@
         android:layout_width="79dp"
         android:layout_height="0dp"
         android:ems="10"
+        android:text="$"
         android:inputType="numberDecimal"
         tools:layout_editor_absoluteX="272dp"
         tools:layout_editor_absoluteY="698dp" />
@@ -191,6 +192,7 @@
         android:layout_width="79dp"
         android:layout_height="0dp"
         android:ems="10"
+        android:text="$"
         android:inputType="numberDecimal"
         tools:layout_editor_absoluteX="272dp"
         tools:layout_editor_absoluteY="756dp" />
@@ -200,6 +202,7 @@
         android:layout_width="79dp"
         android:layout_height="0dp"
         android:ems="10"
+        android:text="$"
         android:inputType="numberDecimal"
         tools:layout_editor_absoluteX="272dp"
         tools:layout_editor_absoluteY="817dp" />
