@@ -21,10 +21,13 @@ public class MainActivity extends AppCompatActivity {
 
     double numbers = 0.0;
 
-    TextView totalTextView;
-    TextView subtotalTextView;
+    EditText totalTextView;
+    EditText subtotalTextView;
     EditText orderInputTV;
-    TextView paintInputTV;
+    EditText paintInputTV;
+    EditText partsInputTV;
+    EditText laborInputTV;
+    EditText inspectionInputTV;
 
     Button submitB;
 
@@ -43,8 +46,9 @@ public class MainActivity extends AppCompatActivity {
             String value = totalTextView.getText().toString();
 
             String orderTypeValue = orderInputTV.getText().toString();
+            Double ot = Double.parseDouble(orderTypeValue);
+            //Integer it = Integer.getInteger(orderTypeValue);
 
-            //String
         }
     };
 
@@ -64,8 +68,13 @@ public class MainActivity extends AppCompatActivity {
             totalTextView = findViewById(R.id.totalCalculation);
             submitB = findViewById(R.id.submitButton);
             submitB.setOnClickListener(buttonListener);
+            inspectionInputTV = findViewById(R.id.inspectionInput);
             orderInputTV = findViewById(R.id.ordertypeInput);
             paintInputTV = findViewById(R.id.paintInput);
+            partsInputTV = findViewById(R.id.partsInput);
+            laborInputTV = findViewById(R.id.laborInput);
+
+
             //Log.i("TEST", String.valueOf(value));
         }
 }
